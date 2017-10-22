@@ -1,0 +1,5 @@
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\InterfacesBodegAPP\bin\Debug\InterfacesBodegAPP.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\InterfacesBodegAPP\bin\Debug\InterfacesBodegAPP.pdb
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\InterfacesBodegAPP\obj\Debug\InterfacesBodegAPP.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\InterfacesBodegAPP\obj\Debug\InterfacesBodegAPP.pdb
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\InterfacesBodegAPP\obj\Debug\InterfacesBodegAPP.csprojResolveAssemblyReference.cache

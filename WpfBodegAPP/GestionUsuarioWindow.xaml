@@ -1,0 +1,106 @@
+﻿<Window x:Class="WpfBodegAPP.GestionUsuarioWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBodegAPP"
+        mc:Ignorable="d"
+        Title="Gestión de Usuarios | Sistema | BodegAPP" Height="650" Width="950" Icon="LogoBodegAPP.ico">
+    <Grid>
+        <StackPanel Orientation="Horizontal" Width="940">
+            <StackPanel Width="500" Orientation="Vertical">
+                <StackPanel Height="50" VerticalAlignment="Bottom">
+                    <Label Content="Usuarios en el Sistema" FontSize="20" FontWeight="Bold" Height="50" VerticalContentAlignment="Bottom" HorizontalAlignment="Center"></Label>
+                </StackPanel>
+                <StackPanel Height="550">
+                    <DataGrid x:Name="dgListadoUsuarios" Margin="10" Height="530" ItemsSource="{Binding usuariosResgistrados}" FontSize="12" SelectionChanged="dgListadoUsuarios_SelectionChanged" IsReadOnly="True" CanUserReorderColumns="False" CanUserResizeColumns="False" CanUserResizeRows="False" CanUserSortColumns="False"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="panelBotones" Width="440" Orientation="Vertical" Visibility="Visible">
+                <Image Source="Imagenes/UsuarioFormulario120x120.png" Height="400"></Image>
+                <StackPanel Height="50" Margin="10,0,20,0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="btnAgregar" Width="200" Click="btnAgregar_Click">
+                        <StackPanel Orientation="Horizontal" Width="170" VerticalAlignment="Center">
+                            <Image Height="32" Width="40" Source="Imagenes/cuenta32x32.png" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Agregar Usuario" Width="140" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Height="50" Margin="10,20,20,0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <Button x:Name="btnActualizar" Width="200" Click="btnActualizar_Click">
+                        <StackPanel Orientation="Horizontal" Width="170" VerticalAlignment="Center">
+                            <Image Height="32" Width="40" Source="Imagenes/Editar32x32.png" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Actualizar Usuario" Width="140" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel x:Name="panelDatosUsuario" Width="440" Orientation="Vertical" Visibility="Collapsed">
+                <StackPanel Height="150" Orientation="Horizontal">
+                    <StackPanel Width="150">
+                        <Image Source="Imagenes/UsuarioFormulario120x120.png" Margin="0,10,0,0"></Image>
+                    </StackPanel>
+                    <StackPanel Width="260" Orientation="Vertical" Margin="10,0,20,0">
+                        <StackPanel Height="50" VerticalAlignment="Bottom">
+                            <Label Content="Datos de Usuario" FontSize="20" FontWeight="Bold" Height="50" VerticalContentAlignment="Bottom" HorizontalAlignment="Center"></Label>
+                        </StackPanel>
+                        <StackPanel Height="25" VerticalAlignment="Bottom">
+                            <Label Content="Usuario" FontSize="14" FontWeight="Bold" Height="25" VerticalContentAlignment="Bottom" HorizontalAlignment="Left"></Label>
+                        </StackPanel>
+                        <StackPanel Height="25" VerticalAlignment="Bottom">
+                            <TextBox x:Name="txtUsuario" Text="{Binding nuevoUsuario.Usuario}" Height="25" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center"/>
+                        </StackPanel>
+                        <StackPanel Height="25" VerticalAlignment="Bottom">
+                            <Label Content="Password"  FontSize="14" FontWeight="Bold" Height="25" VerticalContentAlignment="Bottom" HorizontalAlignment="Left"></Label>
+                        </StackPanel>
+                        <StackPanel Height="25" VerticalAlignment="Bottom">
+                            <TextBox x:Name="txtContrasena" Text="{Binding nuevoUsuario.Contrasena}" Height="25" TextWrapping="Wrap" FontSize="14" VerticalContentAlignment="Center"/>
+                        </StackPanel>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Height="50" Margin="10,0,20,0">
+                    <StackPanel Height="25" VerticalAlignment="Bottom">
+                        <Label Content="Responsable" FontSize="14" FontWeight="Bold" Height="25" VerticalContentAlignment="Bottom" HorizontalAlignment="Left"></Label>
+                    </StackPanel>
+                    <StackPanel Height="25" VerticalAlignment="Bottom">
+                        <TextBox x:Name="txtResponsable" Height="25" TextWrapping="Wrap" Text="{Binding nuevoUsuario.Responsable}" FontSize="14" VerticalContentAlignment="Center"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel Height="180" Margin="10,0,20,0" Orientation="Horizontal">
+                    <StackPanel Height="50" Width="240" VerticalAlignment="top" Orientation="Vertical">
+                        <Label Content="Rol Funcional" FontSize="14" FontWeight="Bold" Height="25" VerticalContentAlignment="Bottom" HorizontalAlignment="Left"></Label>
+                        <ComboBox x:Name="cmbNivel"  Padding="0,0,10,0" FontSize="14" FontWeight="Bold" Height="25"/>
+                    </StackPanel>
+                    <StackPanel Height="50" Width="150" VerticalAlignment="top" Orientation="Vertical" Margin="20,0,0,0">
+                        <Label Content="Estado" FontSize="14" FontWeight="Bold" Height="25" VerticalContentAlignment="Bottom" HorizontalAlignment="Left"></Label>
+                        <ComboBox x:Name="cmbEstado" Padding="10,0,10,0" FontSize="14" FontWeight="Bold" Height="25"/>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:Name="panelBotonNuevoUsuario" Height="50" Margin="10,0,20,0" Orientation="Horizontal" HorizontalAlignment="Center" Visibility="Visible">
+                    <Button x:Name="btnNuevoUsuario" Width="210" Click="btnNuevoUsuario_Click">
+                        <StackPanel Orientation="Horizontal" Width="200" VerticalAlignment="Center">
+                            <Image Height="32" Width="40" Source="Imagenes/NuevoRegistro32x32.png" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Agregar Nuevo Usuario" Width="160" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel x:Name="panelBotonActualizarUsuario" Height="50" Margin="10,0,20,0" Orientation="Horizontal" HorizontalAlignment="Center" Visibility="Visible">
+                    <Button x:Name="btnActualizarUsuario" Width="180" Click="btnActualizarUsuario_Click">
+                        <StackPanel Orientation="Horizontal" Width="170" VerticalAlignment="Center">
+                            <Image Height="32" Width="40" Source="Imagenes/Confirmar32x32.png" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Confirmar Cambios" Width="140" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+                <StackPanel Margin="10,50,20,0" Orientation="Horizontal" Height="50">
+                    <Button x:Name="btnVolver" Width="180" Click="btnVolver_Click">
+                        <StackPanel Orientation="Horizontal" Width="170" VerticalAlignment="Center">
+                            <Image Height="32" Width="40" Source="Imagenes/Cancelar32x32.png" HorizontalAlignment="Center"/>
+                            <TextBlock Text="Cancelar Petición" Width="140" FontSize="14" FontWeight="Bold" VerticalAlignment="Center" TextAlignment="Left"></TextBlock>
+                        </StackPanel>
+                    </Button>
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>

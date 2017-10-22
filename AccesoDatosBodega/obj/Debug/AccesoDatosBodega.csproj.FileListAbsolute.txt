@@ -1,0 +1,24 @@
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.dll.config
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.dll
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.pdb
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.dll
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.xml
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.csprojResolveAssemblyReference.cache
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.dll
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.pdb
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.Migrations.CodeFirst.resources
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.csproj.GenerateResource.Cache
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.Migrations.addTableUsuario.resources
+C:\Users\Joe.Jose\documents\visual studio 2015\Projects\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.Migrations.UsuarioModificoContrasena.resources
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.dll.config
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\AccesoDatosBodega.pdb
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.SqlServer.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.xml
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\bin\Debug\EntityFramework.SqlServer.xml
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.csprojResolveAssemblyReference.cache
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.dll
+E:\Capacitacion\Presencial\CIBERTEC\VISUAL STUDIO DEVELOPER C#\03-Proyecto\BodegAPP\AccesoDatosBodega\obj\Debug\AccesoDatosBodega.pdb

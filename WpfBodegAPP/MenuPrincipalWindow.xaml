@@ -1,0 +1,118 @@
+﻿<Window x:Class="WpfBodegAPP.MenuPrincipalWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfBodegAPP"
+        mc:Ignorable="d"
+        Title="Menu Principal BodegAPP" Height="800" Width="900" Icon="LogoBodegAPP.ico" WindowState="Maximized">
+    <Grid>
+        <StackPanel Orientation="Vertical">
+            <StackPanel Height="40">
+                <Menu x:Name="menuPrincipal" Height="40">
+                    <MenuItem Height="40" Width="110" Header="Cuenta" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/Cuenta32x32.png"></Image>
+                        </MenuItem.Icon>
+                        <MenuItem Header="Cambiar Password">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Key32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Height="40" Width="110" Header="Sistema" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/Sistema32x32.png"></Image>
+                        </MenuItem.Icon>
+                        <MenuItem Header="Gestionar Usuarios">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Usuarios32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Proveedores">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Proveedor32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Clientes">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Cliente32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Categorias">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Categoria32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Productos">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Producto32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar IGV">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/MonedaIGV32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Documentos">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Documentos32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Gestionar Concepto de Caja">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Editar32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Height="40" Width="110" Header="Ventas" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/CajaRegistradora32x32.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+                    <MenuItem Height="40" Width="110" Header="Logística" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/Proveedor32x32.png"></Image>
+                        </MenuItem.Icon>
+                        <MenuItem Header="Inventario">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Producto32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Kardex">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Inventario32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Height="40" Width="150" Header="Contabilidad" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/Contabilidad32x32.png"></Image>
+                        </MenuItem.Icon>
+                        <MenuItem Header="Cajero">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/MonedaIGV32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                        <MenuItem Header="Cuentas por Cobrar">
+                            <MenuItem.Icon>
+                                <Image Source="Imagenes/Documentos32x32.png"></Image>
+                            </MenuItem.Icon>
+                        </MenuItem>
+                    </MenuItem>
+                    <MenuItem Height="40" Width="110" Header="Reportes" FontSize="20">
+                        <MenuItem.Icon>
+                            <Image Source="Imagenes/Analisis32x32.png"></Image>
+                        </MenuItem.Icon>
+                    </MenuItem>
+
+
+                </Menu>
+                <!---->
+            </StackPanel>
+            <StackPanel>
+                <!---->
+            </StackPanel>
+        </StackPanel>
+    </Grid>
+</Window>
